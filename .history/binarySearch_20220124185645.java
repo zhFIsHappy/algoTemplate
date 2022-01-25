@@ -1,25 +1,25 @@
 public class binarySearch{
 
-    int binarySearch(int[] nums, int target){
-    if(nums.length == 0||nums==null){
+    int binarySearch(int[] numb, int target){
+    if(numb.length == 0||numb==null){
         return -1;
     }
     int start = 0;
-    int end = nums.length-1;
+    int end = numb.length-1;
     while (start+1<end){
         int mid = start+(end-start)/2;
-        if (nums[mid]==target){
+        if (numb[mid]==target){
             return mid;
-        }else if(nums[mid]<target){
+        }else if(numb[mid]<target){
             start = mid;
         }else{
             end = mid;
         }
     }
-    if(nums[start]== target){
+    if(numb[start]== target){
         return start;
     }
-    if (nums[end]== target){
+    if (numb[end]== target){
         return end;
     }
     return -1;

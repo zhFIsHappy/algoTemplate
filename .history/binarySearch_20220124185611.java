@@ -11,7 +11,7 @@ public class binarySearch{
         if (nums[mid]==target){
             return mid;
         }else if(nums[mid]<target){
-            start = mid;
+            start = mid
         }else{
             end = mid;
         }

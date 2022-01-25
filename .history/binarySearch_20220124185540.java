@@ -1,5 +1,4 @@
-public class binarySearch{
-
+public class hello{
     int binarySearch(int[] nums, int target){
     if(nums.length == 0||nums==null){
         return -1;
@@ -11,7 +10,7 @@ public class binarySearch{
         if (nums[mid]==target){
             return mid;
         }else if(nums[mid]<target){
-            start = mid;
+            start = mid
         }else{
             end = mid;
         }

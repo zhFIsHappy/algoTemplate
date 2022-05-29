@@ -32,5 +32,6 @@ public class QuickSort{
         }
         quickSort(A,start,right);
         quickSort(A,left,end);
+        
     }
 }

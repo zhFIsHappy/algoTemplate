@@ -1,4 +1,4 @@
-class BFSSingleQueue {
+class BFS{
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
         if (root == null)
